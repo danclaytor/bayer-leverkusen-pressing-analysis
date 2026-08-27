@@ -52,6 +52,10 @@ The project uses [StatsBomb Open Data](https://github.com/statsbomb/open-data), 
 
 StatsBomb attribution is retained in both the notebook and report. An internet connection is required to rerun the data-loading cells.
 
+<a href="https://github.com/hudl/open-data">
+  <img src="assets/statsbomb-logo.png" alt="StatsBomb" width="240">
+</a>
+
 ## Repository structure
 
 ```text
