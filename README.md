@@ -10,7 +10,7 @@ A possession-level analysis of how Bayer Leverkusen pressed, regained the ball a
 
 How often did Leverkusen regain possession shortly after applying pressure, and did those quick regains produce more attacking value than ordinary open-play possessions beginning in similar areas?
 
-## Headline results
+## Key results
 
 The analysis covers all 34 league matches and 137,765 StatsBomb events. It consolidates 3,964 pressure events made during opposition possessions into 1,702 fully observed possession-level sequences.
 
