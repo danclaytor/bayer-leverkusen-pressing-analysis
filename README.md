@@ -69,18 +69,17 @@ StatsBomb attribution is retained in both the notebook and report. An internet c
 
 ## Reproduce the analysis
 
-The notebook was created with Python 3.12. From the repository directory:
+The notebook was created with Python 3.12. From the repository directory, run
+these commands in PowerShell:
 
-```bash
+```powershell
 python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m jupyterlab notebooks/bayer-leverkusen-pressing-analysis.ipynb
 ```
 
-Activate the environment, then run:
-
-```bash
-python -m pip install -r requirements.txt
-jupyter lab notebooks/bayer-leverkusen-pressing-analysis.ipynb
-```
+On macOS/Linux, replace `.\.venv\Scripts\python.exe` with `.venv/bin/python`.
+Environment activation is not required. Use the notebook kernel from this `.venv`.
 
 Run the notebook from top to bottom. A fixed random seed makes the bootstrap results repeatable, although upstream open data or package changes may affect future runs.
 
