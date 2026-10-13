@@ -93,4 +93,4 @@ Run the notebook from top to bottom. A fixed random seed makes the bootstrap res
 
 ## Author
 
-Daniel Claytor — Mathematics graduate interested in data analysis, modelling and football.
+Daniel Claytor - Mathematics graduate interested in data analysis, modelling and football.
